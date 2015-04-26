@@ -26,7 +26,7 @@ def char_shift(string, padding):
                for char in string]
     return ''.join(shifted)
 
-base = 'http://www.pythonchallenge.com/pc/def/map.html'
+url = 'http://www.pythonchallenge.com/pc/def/map.html'
 string = """
     g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp.
     bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle.
@@ -34,5 +34,5 @@ string = """
 
 print ' '.join([char_shift(word, 2) for word in string.split()])
 
-url = base.replace('map', char_shift('map', 2))
-print url
+ans = url.replace('map', char_shift('map', 2))
+print ans

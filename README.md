@@ -14,3 +14,5 @@ I wrote one script for each challenge with name `pc_<#challenge>.py`. Each scrip
     <the ANSWER URL for the next challenge>
 
 The URL for the next challenge would be printed after running the script.
+
+Currently I solved the challenges from 0-7, and I might not continually work on the challenges.
